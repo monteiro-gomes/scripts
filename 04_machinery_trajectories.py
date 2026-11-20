@@ -19,7 +19,7 @@ except NameError:
     ROOT = Path.cwd()
     if ROOT.name == "scripts":
         ROOT = ROOT.parent
-DB = ROOT / "data" / "differential_expression_results.sqlite"
+DB = ROOT / "data" / "de_results_background.sqlite"
 RES, FIG = ROOT / "results", ROOT / "figures"
 RES.mkdir(exist_ok=True)
 FIG.mkdir(exist_ok=True)
